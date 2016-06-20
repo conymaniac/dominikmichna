@@ -17,10 +17,6 @@
 
         // window size
         _wWidth = Object.prototype.hasOwnProperty.call(window, 'innerWidth') ? window.innerWidth : document.body.clientWidth;
-        
-        console.info('test');
-        console.log(_wWidth);
-
         if (_wWidth >= 896) {
         	_diff = _content.offsetWidth - _title.offsetWidth;
             _topLink.style.right =  _diff/16 + 'em';
