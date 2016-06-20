@@ -1,0 +1,23 @@
+/* reset */
+* { box-sizing: border-box; }
+h1, h2 { margin: 0; }
+
+/* Body */
+body {
+	background-color: @night;
+}
+
+/* Main element – background */
+.main {
+	display: inline-block;
+
+	/* desktop/tablet (landscape) view */
+	@media screen and (min-width: @--v-3) {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+}

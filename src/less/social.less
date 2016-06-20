@@ -1,0 +1,49 @@
+/**
+ * Social links
+ */
+
+.social {
+	padding: unit(16px / @rem, em) 0;
+
+	/* mobile view - ex. iPhone 6S */
+	@media screen and (min-width: @--v-2) {
+		padding: unit(16px / @rem, em) unit(8px / @rem, em);
+	}
+
+	/* bigger tablet */
+	@media screen and (min-width: @--v-3) {
+		max-width: unit(864px / @rem, em);
+		margin-top: unit(32px / @rem, em);
+		padding: 0 unit(32px / @rem, em);
+	}
+
+	/* desktop */
+	@media screen and (min-width: @--v-4) {
+		max-width: @--v-4;
+		margin: auto;
+		margin-top: unit(32px / @rem, em);
+		padding: 0;
+	}
+
+	/* jednotlivé položky */
+	&__item {
+
+		display: inline-block;
+		margin: 0 unit(8px / @rem, em);
+
+		/* desktop/tablet (landscape) view */
+		@media screen and (min-width: @--v-3) {
+			margin: 0 unit(12px / @rem, em) 0 unit(4px / @rem, em);
+		}
+
+		/* image/svg */
+		&__image {
+			display: block;
+			width: unit(50px / @rem, em);
+			height: unit(50px / @rem, em);
+		}
+
+	}
+
+
+} 

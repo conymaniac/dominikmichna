@@ -1,0 +1,106 @@
+/**
+ * Content information
+ */
+
+.content {
+	padding: 0 unit(8px / @rem, em);
+
+	/* mobile view - ex. iPhone 6S */
+	@media screen and (min-width: @--v-2) {
+		padding: 0 unit(16px / @rem, em);
+	}
+
+	/* bigger tablet */
+	@media screen and (min-width: @--v-3) {
+		max-width: unit(864px / @rem, em);
+		padding: 0 unit(32px / @rem, em);
+	}
+
+	/* desktop */
+	@media screen and (min-width: @--v-4) {
+		max-width: @--v-4;
+		margin: 10em auto 0;
+		padding: 0;
+	}
+
+	/* name + logo */
+	&__top {
+		width: 100%;
+		margin-top: unit(32px / @rem, em);
+
+		/* bigger tablet */
+		@media screen and (min-width: @--v-3) {
+			margin-left: unit(4px / @rem, em);
+		}
+
+		/* desktop/tablet (landscape) view */
+		@media screen and (min-width: @--v-4) {
+			position: relative;
+			margin-left: unit(4px / @rem, em);
+		}
+	}
+
+	/* homepage link */
+	&__link {
+		display: block;
+		width: 100%;
+		margin-bottom: unit(8px / @rem, em);
+		text-align: center;
+
+		/* desktop/tablet (landscape) view */
+		@media screen and (min-width: @--v-4) {
+			position: absolute;
+			// right: unit(100px / @rem, em);
+			width: auto;
+		}
+	}
+
+	/* name */
+	&__name {
+		&:extend(.name);
+
+		color: @snow;
+
+		/* desktop/tablet (landscape) view */
+		@media screen and (min-width: @--v-4) {
+			position: absolute;
+			bottom: unit(-4px / @rem, em);
+			width: auto;
+		}
+	}
+
+	/* logo */
+	&__logo {
+		display: block;
+		width: unit(64px / @rem, em);
+		height: unit(64px / @rem, em);
+
+		/* desktop/tablet (landscape) view */
+		@media screen and (min-width: @--v-3) {
+			width: unit(100px / @rem, em);
+			height: unit(100px / @rem, em);
+		}
+	}
+
+	/* job title */
+	&__title {
+		&:extend(.title);
+
+		display: inline-block;
+		color: @brick;
+		margin: 0;
+	}
+
+	/* personal motto */
+	&__motto {
+		&:extend(.motto);
+
+		color: @snow;
+	
+		/* desktop/tablet (landscape) view */
+		@media screen and (min-width: @--v-3) {
+			width: 60%;
+			margin-left: unit(4px / @rem, em);
+		}
+	}
+} 

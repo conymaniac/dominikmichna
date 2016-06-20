@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>6BB43EBD-A93D-452D-8F63-60570B8AB884</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="50" height="50" rx="6"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="50" height="50" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(-1178.000000, -926.000000)">
+            <g id="Group-2" transform="translate(1104.000000, 926.000000)">
+                <g id="medium" transform="translate(74.000000, 0.000000)">
+                    <path d="M20.6254312,18.1489537 L20.3938142,36.0845944 C20.3881908,36.4891214 19.7742804,36.62816 19.3174328,36.3983082 L11.7677918,32.6109218 C11.3106504,32.3809223 11.0307491,32.0902634 11.0251244,31.6799876 L11.0251244,13.7664659 C11.019501,13.3562803 11.6058325,12.9723932 12.0900306,13.2160056 L19.9352415,17.0183115 C20.4197508,17.2620806 20.6310559,17.7443378 20.6254312,18.1489537 Z" id="Rectangle-1" fill="#B71C1C"></path>
+                    <path d="M38.7977806,17.5215312 L30.4761307,30.8428533 L24.5509121,21.3237795 L27.1691219,17.1177358 L29.2564189,13.764581 C29.5496339,13.2935435 30.1861256,13.1157192 30.6842295,13.3705544 L38.7977806,17.5215312 Z" id="Polygon-1" fill="#B71C1C"></path>
+                    <polygon id="Triangle-1" fill="#B71C1C" points="21.8660772 19.8150945 29.375 32.03125 21.8660772 28.3382649"></polygon>
+                    <path d="M38.8103648,20.1107134 L38.8103648,35.5583818 C38.8103648,36.1130876 38.4100222,36.3713711 37.9092673,36.1319718 L30.9551108,32.8073515 L38.8103648,20.1107134 Z" id="Triangle-2" fill="#B71C1C"></path>
+                    <use id="Rectangle-1" stroke="#B71C1C" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

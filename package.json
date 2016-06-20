@@ -1,0 +1,24 @@
+{
+  "name": "dominikmichna.cz",
+  "version": "1.0.0",
+  "description": "Personal websites",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conymaniac/dominikmichna.git"
+  },
+  "author": "Dominik Michna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conymaniac/dominikmichna/issues"
+  },
+  "homepage": "https://github.com/conymaniac/dominikmichna#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-less": "^1.3.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-grunticon": "^2.2.3"
+  }
+}

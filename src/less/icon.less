@@ -1,0 +1,60 @@
+/**
+ * Icons & Logos
+ */
+
+.icon {
+	background-repeat: no-repeat;
+
+	&--cat {
+		background-image: url(../img/default/cat.svg), url(../img/default/cat@3x.png);
+		background-size: unit(64px / @rem, em) unit(64px / @rem, em);
+
+		/* desktop/tablet (landscape) view */
+		@media screen and (min-width: @--v-3) {
+			background-size: unit(100px / @rem, em) unit(100px / @rem, em);
+		}
+	}
+
+	&--twitter,
+	&--medium,
+	&--linkedin,
+	&--mail {
+		background-size: unit(50px / @rem, em) unit(50px / @rem, em);
+	}
+
+	&--twitter {
+		background-image: url(../img/default/twitter.svg), url(../img/default/twitter@3x.png);
+
+		&:hover,
+		.icons--cat--active {
+			background-image: url(../img/active/twitter.svg), url(../img/active/twitter@3x.png);
+		}
+	}
+
+	&--medium {
+		background-image: url(../img/default/medium.svg), url(../img/default/medium@3x.png);
+
+		&:hover,
+		.icons--cat--active {
+			background-image: url(../img/active/medium.svg), url(../img/active/medium@3x.png);
+		}
+	}
+
+	&--linkedin {
+		background-image: url(../img/default/linkedin.svg), url(../img/default/linkedin@3x.png);
+
+		&:hover,
+		.icons--cat--active {
+			background-image: url(../img/active/linkedin.svg), url(../img/active/linkedin@3x.png);
+		}
+	}
+
+	&--mail {
+		background-image: url(../img/default/mail.svg), url(../img/default/mail@3x.png);
+
+		&:hover,
+		.icons--cat--active {
+			background-image: url(../img/active/mail.svg), url(../img/active/mail@3x.png);
+		}
+	}
+} 

@@ -1,0 +1,38 @@
+/**
+ * Text styles
+ */
+
+/* Text styles */
+.name {
+	font-family: 'Source Sans Pro Light', 'Arial', sans-serif;
+	font-size: unit(40px / @rem, em);
+	text-align: left;
+
+	/* desktop/tablet (landscape) view */
+	@media screen and (min-width: @--v-4) {
+		font-size: unit(32px / @rem, em);
+	}
+}
+
+.title {
+	font-family: 'Source Sans Pro Semibold', 'Arial', sans-serif;
+	font-size: unit(64px / @rem, em);
+	text-align: left;
+	text-transform: uppercase;
+
+	/* desktop/tablet (landscape) view */
+	@media screen and (min-width: @--v-4) {
+		font-size: unit(72px / @rem, em);
+	}
+}
+
+.motto {
+	font-family: 'Source Sans Pro Light', 'Arial', sans-serif;
+	font-size: unit(32px / @rem, em);
+	color: @snow;
+
+	/* desktop/tablet (landscape) view */
+	@media screen and (min-width: @--v-4) {
+		font-size: unit(24px / @rem, em);
+	}
+}
