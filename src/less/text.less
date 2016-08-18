@@ -5,34 +5,67 @@
 /* Text styles */
 .name {
 	font-family: 'Source Sans Pro Light', 'Arial', sans-serif;
-	font-size: unit(40px / @rem, em);
+	font-size: unit(40px / @--rem, em);
 	text-align: left;
 
 	/* desktop/tablet (landscape) view */
 	@media screen and (min-width: @--v-4) {
-		font-size: unit(32px / @rem, em);
+		font-size: unit(32px / @--rem, em);
 	}
 }
 
 .title {
 	font-family: 'Source Sans Pro Semibold', 'Arial', sans-serif;
-	font-size: unit(64px / @rem, em);
+	font-size: unit(64px / @--rem, em);
 	text-align: left;
 	text-transform: uppercase;
 
 	/* desktop/tablet (landscape) view */
 	@media screen and (min-width: @--v-4) {
-		font-size: unit(72px / @rem, em);
+		font-size: unit(72px / @--rem, em);
+	}
+}
+
+.subtitle {
+	font-family: 'Source Sans Pro Semibold', 'Arial', sans-serif;
+	font-size: unit(48px / @--rem, em);
+	text-align: left;
+	text-transform: uppercase;
+
+	/* desktop/tablet (landscape) view */
+	@media screen and (min-width: @--v-4) {
+		font-size: unit(32px / @--rem, em);
 	}
 }
 
 .motto {
 	font-family: 'Source Sans Pro Light', 'Arial', sans-serif;
-	font-size: unit(32px / @rem, em);
-	color: @snow;
+	font-size: unit(32px / @--rem, em);
 
 	/* desktop/tablet (landscape) view */
 	@media screen and (min-width: @--v-4) {
-		font-size: unit(24px / @rem, em);
+		font-size: unit(24px / @--rem, em);
+	}
+}
+
+.text {
+	font-family: 'Verdana', 'Arial', sans-serif;
+	font-size: unit(22px / @--rem, em);
+	line-height: 1.3;
+
+	/* desktop/tablet (landscape) view */
+	@media screen and (min-width: @--v-4) {
+		font-size: unit(18px / @--rem, em);
+	}
+}
+
+.caption {
+	font-family: 'Verdana', 'Arial', sans-serif;
+	font-size: unit(16px / @--rem, em);
+	line-height: 1.3;
+
+	/* desktop/tablet (landscape) view */
+	@media screen and (min-width: @--v-4) {
+		font-size: unit(14px / @--rem, em);
 	}
 }

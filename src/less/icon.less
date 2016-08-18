@@ -7,11 +7,11 @@
 
 	&--cat {
 		background-image: url(../img/default/cat.svg), url(../img/default/cat@3x.png);
-		background-size: unit(64px / @rem, em) unit(64px / @rem, em);
+		background-size: unit(64px / @--rem, em) unit(64px / @--rem, em);
 
 		/* desktop/tablet (landscape) view */
 		@media screen and (min-width: @--v-3) {
-			background-size: unit(100px / @rem, em) unit(100px / @rem, em);
+			background-size: unit(100px / @--rem, em) unit(100px / @--rem, em);
 		}
 	}
 
@@ -19,7 +19,7 @@
 	&--medium,
 	&--linkedin,
 	&--mail {
-		background-size: unit(50px / @rem, em) unit(50px / @rem, em);
+		background-size: unit(50px / @--rem, em) unit(50px / @--rem, em);
 	}
 
 	&--twitter {
